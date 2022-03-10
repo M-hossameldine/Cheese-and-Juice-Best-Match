@@ -3,8 +3,10 @@ import './App.css';
 import ParentComponent from './components/ParentComponent';
 function App() {
   return (
-    <div className='App'>
-      <ParentComponent />
+    <div className='App-header'>
+      <main>
+        <ParentComponent />
+      </main>
     </div>
   );
 }

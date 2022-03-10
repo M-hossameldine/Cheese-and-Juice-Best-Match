@@ -33,7 +33,7 @@ const ParentComponent = (props) => {
   return (
     <div className='flex flex-col justify-center items-center'>
       <h3 className='text-center dark:text-gray-400 mt-10'>
-        Without React.memo() or useMemo()
+        With React.memo()
       </h3>
       <h1 className='font-semibold text-2xl dark:text-white max-w-md text-center'>
         select a cheese and we will tell you whick Juice goes best!
