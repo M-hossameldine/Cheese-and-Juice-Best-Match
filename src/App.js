@@ -4,7 +4,7 @@ import ParentComponent from './components/ParentComponent';
 function App() {
   return (
     <div className='App-header'>
-      <main>
+      <main className='border-orange-300'>
         <ParentComponent />
       </main>
     </div>

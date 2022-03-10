@@ -32,9 +32,7 @@ const ParentComponent = (props) => {
 
   return (
     <div className='flex flex-col justify-center items-center'>
-      <h3 className='text-center dark:text-gray-400 mt-10'>
-        With React.memo()
-      </h3>
+      <h3 className='text-center text-gray-300 mt-10'>With React.memo()</h3>
       <h1 className='font-semibold text-2xl dark:text-white max-w-md text-center'>
         select a cheese and we will tell you whick Juice goes best!
       </h1>
@@ -44,9 +42,9 @@ const ParentComponent = (props) => {
         <Button text={PARMESAN} onClick={() => setCheeseType(PARMESAN)} />
       </div>
       {cheeseType && (
-        <p className='mt-5 dark:text-green-400 font-semibold'>
-          For {cheeseType},{' '}
-          <span className='dark:text-yellow-500'>{juice}</span> goes best.
+        <p className='mt-5 text-emerald-400 font-semibold'>
+          For {cheeseType}, <span className='text-orange-300'>{juice}</span>{' '}
+          goes best.
         </p>
       )}
       <Counts />

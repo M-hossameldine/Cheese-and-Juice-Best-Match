@@ -7,7 +7,7 @@ const Counts = () => {
     <div className='mt-3'>
       <p className='dark:text-white'>
         Nothing has changed here but I've now rendered:{' '}
-        <span className='dark:text-green-300 text-grey-900'>
+        <span className='text-emerald-400'>
           {renderCount.current++} times(s)
         </span>
       </p>
